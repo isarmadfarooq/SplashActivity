@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context="com.example.bodygoalsworkout.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/shape_foreground_blackish"
+        android:src="@drawable/splash_frame"/>
+
+    <ImageView
+        android:id="@+id/shapeRectangularIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_rectangle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="200dp">
+
+        <TextView
+            android:id="@+id/welcomeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:layout_marginTop="200dp"/>
+
+        <TextView
+            android:id="@+id/bodyGoalsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY  GOALS \n   WORKOUT"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Achieve your body goals with us"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</FrameLayout>
